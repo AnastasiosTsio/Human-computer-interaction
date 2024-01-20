@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="html-devise-layout" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Sign in · GitLab</title>
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://gricad-gitlab.univ-grenoble-alpes.fr/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host=null;gon.webpack_public_path="/assets/webpack/";gon.relative_url_root="";gon.user_color_scheme="white";gon.markdown_surround_selection=null;gon.markdown_automatic_lists=null;gon.recaptcha_api_server_url="https://www.recaptcha.net/recaptcha/api.js";gon.recaptcha_sitekey="";gon.gitlab_url="https://gricad-gitlab.univ-grenoble-alpes.fr";gon.revision="0cf5cc0917c";gon.feature_category="system_access";gon.gitlab_logo="/assets/gitlab_logo-2957169c8ef64c58616a1ac3f4fc626e8a35ce4eb3ed31bb0d873712f2a041a0.png";gon.secure=true;gon.sprite_icons="/assets/icons-3591e1b0dc5b9091969f4b703f7bdaffa0ca7b2c7953b0f3a7e7dc1e71c3e43d.svg";gon.sprite_file_icons="/assets/file_icons/file_icons-6489590d770258cc27e4698405d309d83e42829b667b4d601534321e96739a5a.svg";gon.emoji_sprites_css_path="/assets/emoji_sprites-e1b1ba2d7a86a445dcb1110d1b6e7dd0200ecaa993a445df77a07537dbf8f475.css";gon.gridstack_css_path="/assets/lazy_bundles/gridstack-e5c76ea24b3464e028ac36d40754127d8a0a4ad4d46d3f8244f6ce926675aac2.css";gon.test_env=false;gon.disable_animations=false;gon.suggested_label_colors={"#cc338b":"Magenta-pink","#dc143c":"Crimson","#c21e56":"Rose red","#cd5b45":"Dark coral","#ed9121":"Carrot orange","#eee600":"Titanium yellow","#009966":"Green-cyan","#8fbc8f":"Dark sea green","#6699cc":"Blue-gray","#e6e6fa":"Lavender","#9400d3":"Dark violet","#330066":"Deep violet","#36454f":"Charcoal grey","#808080":"Gray"};gon.first_day_of_week=0;gon.time_display_relative=true;gon.ee=false;gon.jh=false;gon.dot_com=false;gon.uf_error_prefix="UF";gon.pat_prefix="";gon.use_new_navigation=false;gon.keyboard_shortcuts_enabled=true;gon.diagramsnet_url="https://embed.diagrams.net";gon.features={"usageDataApi":true,"securityAutoFix":false,"sourceEditorToolbar":false,"vscodeWebIde":false,"unbatchGraphqlQueries":true,"serverSideFrecentNamespaces":false,"removeMonitorMetrics":true,"gitlabDuo":false,"customEmoji":false};
+//]]>
+</script>
+
+
+
+
+<link rel="stylesheet" href="/assets/themes/theme_light_gray-3709fdfdb1600922d90063efdcf592c5e03aeccf4bfff84771ee72cd6ea73a58.css" />
+
+<link rel="stylesheet" href="/assets/application-e803bb812a5c601a017cbfaa6d442b51c869a084d04a0e2b77dfee19959bc000.css" media="all" />
+<link rel="stylesheet" href="/assets/page_bundles/login-0429c38ed82db11a8cf7e207d37f45c351b0941709bd2adb958007126d0d7ed4.css" media="all" />
+<link rel="stylesheet" href="/assets/application_utilities-2531e4e6ef42e4af0a1b836590e0b362055984d2fa233ae3c5b07d7c4a2761fd.css" media="all" />
+
+
+<link rel="stylesheet" href="/assets/fonts-171e1863d044918ea3bbaacf2a559ccaac603904aa851c3add5b714fa7066468.css" media="all" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-0163ec1ff3033e0ebaf2e7700680941596e39d73535518445a42947430b7d452.css" media="all" />
+
+
+<link rel="preload" href="/assets/application_utilities-2531e4e6ef42e4af0a1b836590e0b362055984d2fa233ae3c5b07d7c4a2761fd.css" as="style" type="text/css">
+<link rel="preload" href="/assets/application-e803bb812a5c601a017cbfaa6d442b51c869a084d04a0e2b77dfee19959bc000.css" as="style" type="text/css">
+<link rel="preload" href="/assets/highlight/themes/white-0163ec1ff3033e0ebaf2e7700680941596e39d73535518445a42947430b7d452.css" as="style" type="text/css">
+
+
+
+
+
+
+
+
+<script src="/assets/webpack/runtime.e9762d44.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.e52492d6.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.application_settings-pages.admin.application_settings.ci_cd-pages.admin.applicat-20fae03e.679c0629.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.sessions-pages.registrations.new-pages.sessions-pages.sessions.new.ec349da7.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.registrations.new-pages.sessions.new.834debc0.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.sessions.new.0ab26848.chunk.js" defer="defer"></script>
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="Sign in · GitLab" property="og:title">
+<meta content="Plate-forme gitlab pour la communauté ESR grenobloise" property="og:description">
+<meta content="https://gricad-gitlab.univ-grenoble-alpes.fr/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gricad-gitlab.univ-grenoble-alpes.fr/users/sign_in" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="Sign in · GitLab" property="twitter:title">
+<meta content="Plate-forme gitlab pour la communauté ESR grenobloise" property="twitter:description">
+<meta content="https://gricad-gitlab.univ-grenoble-alpes.fr/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="twitter:image">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="RcEc1-F2jfggpMQ-L0BJvq2Tf17MHuPivMgwqCnkDHZxWe8PwWkljyyjQvUE-gOwslXdLX0eIEoUlKZIlsEhNg" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" id="favicon" data-original-href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+
+
+
+
+<meta content="Plate-forme gitlab pour la communauté ESR grenobloise" name="description">
+<meta content="#ececef" name="theme-color">
+</head>
+
+<body class="gl-h-full login-page navless ui-light-gray gl-browser-generic gl-platform-other" data-page="sessions:new" data-qa-selector="login_page">
+
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+
+
+<div class="gl-h-full borderless gl-display-flex gl-flex-wrap">
+<div class="container">
+<div class="content">
+<div class="flash-container flash-container-page sticky" data-qa-selector="flash_container">
+</div>
+
+<div class="row">
+<div class="col-md order-12 sm-bg-gray">
+<div class="col-sm-12">
+<h1 class="mb-3 gl-font-size-h2">
+Plate-forme gitlab pour la communauté ESR grenobloise
+</h1>
+<p data-sourcepos="1:1-1:233" dir="auto">Gricad-gitlab est une plate-forme de travail collaboratif destinée à la communauté enseignement supérieur et recherche à Grenoble. Ce service est proposé et administré par l'<a href="https://gricad.univ-grenoble-alpes.fr" rel="nofollow noreferrer noopener" target="_blank">UAR GRICAD</a>.</p>&#x000A;<p data-sourcepos="3:1-3:107" dir="auto">Vous pouvez vous connecter directement avec votre identifiant universitaire (agalan) via l'onglet LDAP UGA.</p>&#x000A;<p data-sourcepos="5:1-5:255" dir="auto">Pour les personnes extérieures (non ldap) ou ne possédant pas de compte Agalan,  vous pouvez créer un compte via la fiche  <a href="https://register.gricad-gitlab.univ-grenoble-alpes.fr/index.html" rel="nofollow noreferrer noopener" target="_blank">Register</a> et vous connecter en utilisant l'onglet "Standard".</p>&#x000A;<p data-sourcepos="7:1-7:72" dir="auto"><a href="https://docs.gricad-pages.univ-grenoble-alpes.fr/help" rel="nofollow noreferrer noopener" target="_blank">Documentation</a>|</p>&#x000A;<p data-sourcepos="9:1-9:69" dir="auto"><a href="https://gricad.univ-grenoble-alpes.fr/mentions.html" rel="nofollow noreferrer noopener" target="_blank">Notice légale</a></p>&#x000A;<p data-sourcepos="11:1-11:104" dir="auto"><a href="https://docs.gricad-pages.univ-grenoble-alpes.fr/help/rgpd" rel="nofollow noreferrer noopener" target="_blank">Information sur le traitement des données</a></p>
+</div>
+</div>
+<div class="col-md order-md-12">
+<div class="col-sm-12 bar">
+<div class="gl-text-center">
+<img alt="Plate-forme gitlab pour la communauté ESR grenobloise" class="gl-w-10 lazy" data-src="/uploads/-/system/appearance/logo/1/logo_gricad.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+
+<div id="signin-container">
+<ul class="nav-links new-session-tabs nav-tabs nav custom-provider-tabs nav-links-unboxed">
+
+<li class="nav-item">
+<a class="nav-link active" data-toggle="tab" data-qa-selector="ldap_tab" data-testid="ldap-tab" role="tab" href="#ldapmain">LDAP UGA</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" data-qa-selector="standard_tab" role="tab" href="#login-pane">Standard</a>
+</li>
+</ul>
+
+<div class="tab-content">
+<div class="login-box tab-pane active" id="ldapmain" role="tabpanel">
+<div class="login-body">
+<form class="gl-p-5 gl-show-field-errors" aria-live="assertive" data-testid="new_ldap_user" action="/users/auth/ldapmain/callback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Fwqj-Y6kg9HQjuejYXsjqCg352q6uh3l6rQ5le590g8jklAhrrsrptyJYWhKwWmmN_FFGQu63k1C6K91UVj_Tw" autocomplete="off" /><div class="form-group">
+<label for="ldapmain_username">Username</label>
+<input name="username" autocomplete="username" class="form-control gl-form-input" title="This field is required." autofocus="autofocus" data-qa-selector="username_field" required="required" type="text" id="ldapmain_username" />
+</div>
+<div class="form-group">
+<label for="ldapmain_password">Password</label>
+<input class="form-control gl-form-input js-password" data-id="ldapmain_password" data-name="password" data-qa-selector="password_field">
+</div>
+<div class="gl-form-checkbox custom-control custom-checkbox">
+<input name="remember_me" type="hidden" value="0" autocomplete="off" /><input name="remember_me" autocomplete="off" class="custom-control-input" type="checkbox" value="1" id="ldapmain_remember_me" />
+<label class="custom-control-label" for="ldapmain_remember_me"><span>Remember me</span></label>
+</div>
+
+<button data-qa-selector="sign_in_button" type="submit" class="gl-button btn btn-block btn-md btn-confirm "><span class="gl-button-text">
+Sign in
+
+</span>
+
+</button></form>
+</div>
+</div>
+
+<div class="login-box tab-pane" id="login-pane" role="tabpanel">
+<div class="login-body">
+<form class="gl-p-5 gl-show-field-errors js-arkose-labs-form" id="new_user" aria-live="assertive" data-testid="sign-in-form" action="/users/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EnOFyDxTitM1YufSbxF5wanr3nJRZFeL4bQKC5fCDa0m63YQHEwipDllYRlEqzPPti18AeBklCNJ6JzrKOcg7Q" autocomplete="off" /><div class="form-group">
+<label for="user_login">Username or primary email</label>
+<input class="form-control gl-form-input js-username-field" autocomplete="username" autofocus="autofocus" autocapitalize="off" autocorrect="off" required="required" title="This field is required." data-qa-selector="login_field" data-testid="username-field" type="text" name="user[login]" id="user_login" />
+</div>
+<div class="form-group">
+<label for="user_password">Password</label>
+<input class="form-control gl-form-input js-password" data-id="user_password" data-qa-selector="password_field" data-testid="password-field" data-name="user[password]" type="password" name="user[password]" id="user_password" />
+<div class="form-text gl-text-right">
+<a href="/users/password/new">Forgot your password?</a>
+</div>
+</div>
+<div class="form-group">
+</div>
+<div class="form-group">
+<div class="gl-form-checkbox custom-control custom-checkbox">
+<input name="user[remember_me]" type="hidden" value="0" autocomplete="off" /><input autocomplete="off" class="custom-control-input" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+<label class="custom-control-label" for="user_remember_me"><span>Remember me</span></label>
+</div>
+
+</div>
+<button class="gl-button btn btn-block btn-md btn-confirm js-sign-in-button " data-qa-selector="sign_in_button" data-testid="sign-in-button" type="submit"><span class="gl-button-text">
+Sign in
+
+</span>
+
+</button></form>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-container gl-w-full gl-align-self-end">
+<hr class="gl-m-0">
+<div class="container gl-py-5 gl-display-flex gl-justify-content-space-between">
+<div class="gl-display-flex gl-gap-5 gl-flex-wrap">
+<a href="/explore">Explore</a>
+<a href="/help">Help</a>
+<a href="https://about.gitlab.com">About GitLab</a>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" href="https://forum.gitlab.com">Community forum</a>
+</div>
+<div class="js-language-switcher" data-locales="[{&quot;value&quot;:&quot;en&quot;,&quot;percentage&quot;:100,&quot;text&quot;:&quot;English&quot;},{&quot;value&quot;:&quot;zh_TW&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;繁體中文 (台灣)&quot;},{&quot;value&quot;:&quot;zh_CN&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;简体中文&quot;},{&quot;value&quot;:&quot;ja&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;日本語&quot;},{&quot;value&quot;:&quot;fr&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;français&quot;},{&quot;value&quot;:&quot;de&quot;,&quot;percentage&quot;:96,&quot;text&quot;:&quot;Deutsch&quot;}]"></div>
+
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
